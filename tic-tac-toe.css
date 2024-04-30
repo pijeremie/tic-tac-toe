@@ -1,0 +1,23 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 50px;
+}
+
+#plateau {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+.cell {
+    background-color: rgba(107, 107, 107, 0.6);
+    border: 1px solid rgb(95, 95, 95);
+    text-align: center;
+    font-size: 5em;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: rgba(252, 228, 9, 0.1);   
+}
